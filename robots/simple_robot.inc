@@ -105,29 +105,29 @@ define simple_robot position(
 	size [0.5 0.5 0.20]
 	gui_nose 1
 
-	body(pose [0.0 0.0 -0.02 270.0])
-	neck(pose [0.0 0.0 0.05 270.0])
-	head(pose [0.0 0.0 -0.95 270.0])
-	armL(pose [0.30 0.0 0.25 270.0])
-	armR(pose [-0.30 0.0 0.25 270.0])
-	laser(pose [0.0 -0.25 0.15 0.0])
+	body(pose [0.0 0.0 -0.02 0.0])
+	neck(pose [0.0 0.0 0.05 0.0])
+	head(pose [0.0 0.0 -0.95 90.0])
+	armL(pose [0.0 0.30 0.25 90.0])
+	armR(pose [0.0 -0.30 0.25 90.0])
+	laser(pose [0.25 0.0 0.15 0.0])
 
 	block(
 		points 4
-		point[0] [0.25 0]
-		point[1] [0.3 0.1]
-		point[2] [0.4 0.1]
-		point[3] [0.45 0]
+		point[0] [0 0]
+		point[1] [0 0.05]
+		point[2] [0.3 0.05]
+		point[3] [0.3 0]
 		z [0 0.09]
 
 	)
 	
 	block(
 		points 4
-		point[0] [0 0]
-		point[1] [0.05 0.1]
-		point[2] [0.15 0.1]
-		point[3] [0.2 0]
+		point[0] [0 0.15]
+		point[1] [0 0.2]
+		point[2] [0.3 0.2]
+		point[3] [0.3 0.15]
 		z [0 0.09]
 	)
 	
