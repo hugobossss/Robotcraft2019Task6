@@ -19,7 +19,7 @@ window(
 floorplan (
 	size [27.05 21.65 1.000]
 	pose [13.525 10.825 0.000 0.000]
-	bitmap "../maps/earth.png"
+	bitmap "../maps/earth.pgm"
 )
 
 include "../robots/simple_robot.inc"
